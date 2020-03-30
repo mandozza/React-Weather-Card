@@ -30,7 +30,7 @@ const WeatherCard = (props) => {
   padding:30px;
   border-radius: 12px;
   color:#FFF;
-  text-shadow: rgba(0,0,0,0.5) -1px 0, rgba(0,0,0,0.3) 0 -1px, rgba(255,255,255,0.5) 0 1px, rgba(0,0,0,0.3) -1px -2px;
+  
 `;
 
     return ( 

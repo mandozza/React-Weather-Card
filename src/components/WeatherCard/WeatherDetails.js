@@ -17,11 +17,11 @@ const Weathertype = styled.div`
     margin-top: -10px;
 `
 
-const WeatherDetails = (props) => {
+const WeatherDetails = ({temp, condition}) => {
     return (  
     <WeatherWrapper>
-        <Temperature>temp</Temperature>
-        <Weathertype>weather type</Weathertype> 
+        <Temperature>{temp}</Temperature>
+        <Weathertype>{condition}</Weathertype> 
     </WeatherWrapper>     
     );
 }
